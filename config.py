@@ -1,0 +1,6 @@
+customhost = "job.c6icpyf3vfdr.us-east-1.rds.amazonaws.com"
+customuser = "demouser"
+custompass = "demouser123"
+customdb = "job"
+custombucket = "addjob"
+customregion = "us-east-1"

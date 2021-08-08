@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Job Registration</title>
+</head>
+<center>
+	<font color="black" size="4" style="font-family: avenir">
+
+		<h1 style="color: DodgerBlue">Job Registration</h1>
+
+		<body bgcolor="lightsalmon">
+
+			<form action="/addjob" autocomplete="on" method = "POST" enctype="multipart/form-data">
+
+				<button type="submit" formaction="/getjob" style="background: green; height: 45px; width: 200px; color:white; font:oblique;">GET JOB INFORMATION</button><br><br>
+
+		  		First Name:<br> <input style="height:25px;font-size:14pt;color:grey;" type="text" name="first_name" autofocus size="40"><br><br>
+
+		  		Last Name:<br> <input style="height:25px;font-size:14pt;color:grey;" type="text" name="last_name"><br><br> 
+
+                                Address:<br> <input style="height:25px;font-size:14pt;color:grey;" type="text" name="address" ><br><br> 
+
+                                Phone:<br> <input style="height:25px;font-size:14pt;color:grey;" type="text" name="phone" ><br><br> 
+
+                                email:<br> <input style="height:25px;font-size:14pt;color:grey;" type="text" name="email" ><br><br> 
+
+                                Position:<br> <input style="height:25px;font-size:14pt;color:grey;" type="text" name="position" ><br><br> 
+
+                                Primary Skills:<br> <input style="height:25px;font-size:14pt;color:grey;" type="text" name="pri_skill"><br><br> 
+
+                                Last Company Worked:<br> <input style="height:25px;font-size:14pt;color:grey;" type="text" name="last_companyname"><br><br>
+
+                                Expected Salary:<br> <input style="height:25px;font-size:14pt;color:grey;" type="text" name="salary" ><br><br> 
+
+                                Years of Experience:<br> <input style="height:25px;font-size:14pt;color:grey;" type="text" name="years_of_exp"><br><br> 
+
+                                Joining Date:<br> <input style="height:25px;font-size:14pt;color:grey;" type="date" name="dateofjoin"><br><br> 
+
+                                Gender:<br> <input style="height:25px;font-size:14pt;color:grey;" type="radio" name="gender" value="Male">Male<br> 
+
+                                            <input style="height:25px;font-size:14pt;color:grey;" type="radio" name="gender" value="Female">Female<br><br> 
+
+                                Marital Status:<br> <input style="height:25px;font-size:14pt;color:grey;" type="text" name="marital_status"><br><br> 
+
+		  	        Upload Resume: <input type=file name="Resume_file" style="height:25px;font-size:14pt;color:grey;"> <br><br>
+
+		  		<button type="submit" style="background: green; height: 45px; width: 200px; color: white; size: 5; font:oblique;">Submit</button>
+
+			</form>
+<a href="/about">About Us</a>
+		</body>
+
+	</font>
+</center>
+</html>
